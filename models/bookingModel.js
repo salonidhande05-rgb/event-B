@@ -1,5 +1,6 @@
 let { MongoClient, ObjectId } = require("mongodb");
 
+let url = process.env.MONGO_URL;
 
 let add =(obj,res)=>
 {
